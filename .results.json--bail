@@ -1,0 +1,335 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 1,
+    "pending": 0,
+    "failures": 6,
+    "start": "2022-09-07T14:44:45.721Z",
+    "end": "2022-09-07T14:44:45.735Z",
+    "duration": 14
+  },
+  "tests": [
+    {
+      "title": "exists in the HTML document",
+      "fullTitle": "<table> exists in the HTML document",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 3,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "has five rows",
+      "fullTitle": "<table> has five rows",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children",
+        "showDiff": true,
+        "actual": "4",
+        "expected": "5",
+        "stack": "AssertionError: Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children\n    at Context.<anonymous> (test/index.html.test.js:18:60)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children",
+            "showDiff": true,
+            "actual": "4",
+            "expected": "5",
+            "multiple": "AssertionError: Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children",
+            "stack": "AssertionError: Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children\n    at Context.<anonymous> (test/index.html.test.js:18:60)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct headers",
+      "fullTitle": "<table> has the correct headers",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected th to contain 'City', but the text was 'Name'",
+        "showDiff": true,
+        "actual": "Name",
+        "expected": "City",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected th to contain 'City', but the text was 'Name'\n    at Context.<anonymous> (test/index.html.test.js:28:32)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected th to contain 'City', but the text was 'Name'",
+            "showDiff": true,
+            "actual": "Name",
+            "expected": "City",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected th to contain 'City', but the text was 'Name'",
+            "stack": "AssertionError: expected th to contain 'City', but the text was 'Name'\n    at Context.<anonymous> (test/index.html.test.js:28:32)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about New York City",
+      "fullTitle": "<table> has the correct information about New York City",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected td to contain 'New York', but the text was 'Daniel'",
+        "showDiff": true,
+        "actual": "Daniel",
+        "expected": "New York",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected td to contain 'New York', but the text was 'Daniel'\n    at Context.<anonymous> (test/index.html.test.js:40:30)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected td to contain 'New York', but the text was 'Daniel'",
+            "showDiff": true,
+            "actual": "Daniel",
+            "expected": "New York",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected td to contain 'New York', but the text was 'Daniel'",
+            "stack": "AssertionError: expected td to contain 'New York', but the text was 'Daniel'\n    at Context.<anonymous> (test/index.html.test.js:40:30)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about Los Angeles",
+      "fullTitle": "<table> has the correct information about Los Angeles",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected td to contain 'Los Angeles', but the text was 'Rachel'",
+        "showDiff": true,
+        "actual": "Rachel",
+        "expected": "Los Angeles",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected td to contain 'Los Angeles', but the text was 'Rachel'\n    at Context.<anonymous> (test/index.html.test.js:52:30)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected td to contain 'Los Angeles', but the text was 'Rachel'",
+            "showDiff": true,
+            "actual": "Rachel",
+            "expected": "Los Angeles",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected td to contain 'Los Angeles', but the text was 'Rachel'",
+            "stack": "AssertionError: expected td to contain 'Los Angeles', but the text was 'Rachel'\n    at Context.<anonymous> (test/index.html.test.js:52:30)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about Chicago",
+      "fullTitle": "<table> has the correct information about Chicago",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected td to contain 'Chicago', but the text was 'Terrance'",
+        "showDiff": true,
+        "actual": "Terrance",
+        "expected": "Chicago",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected td to contain 'Chicago', but the text was 'Terrance'\n    at Context.<anonymous> (test/index.html.test.js:64:30)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected td to contain 'Chicago', but the text was 'Terrance'",
+            "showDiff": true,
+            "actual": "Terrance",
+            "expected": "Chicago",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected td to contain 'Chicago', but the text was 'Terrance'",
+            "stack": "AssertionError: expected td to contain 'Chicago', but the text was 'Terrance'\n    at Context.<anonymous> (test/index.html.test.js:64:30)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about Houston",
+      "fullTitle": "<table> has the correct information about Houston",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading 'querySelectorAll')\n    at Proxy.<anonymous> (node_modules/chai-dom/chai-dom.js:332:22)\n    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n    at Context.<anonymous> (test/index.html.test.js:73:39)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Cannot read properties of undefined (reading 'querySelectorAll')",
+        "multiple": [
+          {
+            "multiple": "TypeError: Cannot read properties of undefined (reading 'querySelectorAll')"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has five rows",
+      "fullTitle": "<table> has five rows",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children",
+        "showDiff": true,
+        "actual": "4",
+        "expected": "5",
+        "stack": "AssertionError: Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children\n    at Context.<anonymous> (test/index.html.test.js:18:60)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children",
+            "showDiff": true,
+            "actual": "4",
+            "expected": "5",
+            "multiple": "AssertionError: Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children",
+            "stack": "AssertionError: Your <table> tag needs five <tr> tags, one for each row: expected tr, tr, tr, tr to have 5 children but it had 4 children\n    at Context.<anonymous> (test/index.html.test.js:18:60)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct headers",
+      "fullTitle": "<table> has the correct headers",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected th to contain 'City', but the text was 'Name'",
+        "showDiff": true,
+        "actual": "Name",
+        "expected": "City",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected th to contain 'City', but the text was 'Name'\n    at Context.<anonymous> (test/index.html.test.js:28:32)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected th to contain 'City', but the text was 'Name'",
+            "showDiff": true,
+            "actual": "Name",
+            "expected": "City",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected th to contain 'City', but the text was 'Name'",
+            "stack": "AssertionError: expected th to contain 'City', but the text was 'Name'\n    at Context.<anonymous> (test/index.html.test.js:28:32)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about New York City",
+      "fullTitle": "<table> has the correct information about New York City",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected td to contain 'New York', but the text was 'Daniel'",
+        "showDiff": true,
+        "actual": "Daniel",
+        "expected": "New York",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected td to contain 'New York', but the text was 'Daniel'\n    at Context.<anonymous> (test/index.html.test.js:40:30)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected td to contain 'New York', but the text was 'Daniel'",
+            "showDiff": true,
+            "actual": "Daniel",
+            "expected": "New York",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected td to contain 'New York', but the text was 'Daniel'",
+            "stack": "AssertionError: expected td to contain 'New York', but the text was 'Daniel'\n    at Context.<anonymous> (test/index.html.test.js:40:30)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about Los Angeles",
+      "fullTitle": "<table> has the correct information about Los Angeles",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected td to contain 'Los Angeles', but the text was 'Rachel'",
+        "showDiff": true,
+        "actual": "Rachel",
+        "expected": "Los Angeles",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected td to contain 'Los Angeles', but the text was 'Rachel'\n    at Context.<anonymous> (test/index.html.test.js:52:30)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected td to contain 'Los Angeles', but the text was 'Rachel'",
+            "showDiff": true,
+            "actual": "Rachel",
+            "expected": "Los Angeles",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected td to contain 'Los Angeles', but the text was 'Rachel'",
+            "stack": "AssertionError: expected td to contain 'Los Angeles', but the text was 'Rachel'\n    at Context.<anonymous> (test/index.html.test.js:52:30)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about Chicago",
+      "fullTitle": "<table> has the correct information about Chicago",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected td to contain 'Chicago', but the text was 'Terrance'",
+        "showDiff": true,
+        "actual": "Terrance",
+        "expected": "Chicago",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected td to contain 'Chicago', but the text was 'Terrance'\n    at Context.<anonymous> (test/index.html.test.js:64:30)\n    at processImmediate (node:internal/timers:466:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected td to contain 'Chicago', but the text was 'Terrance'",
+            "showDiff": true,
+            "actual": "Terrance",
+            "expected": "Chicago",
+            "operator": "strictEqual",
+            "multiple": "AssertionError: expected td to contain 'Chicago', but the text was 'Terrance'",
+            "stack": "AssertionError: expected td to contain 'Chicago', but the text was 'Terrance'\n    at Context.<anonymous> (test/index.html.test.js:64:30)\n    at processImmediate (node:internal/timers:466:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "has the correct information about Houston",
+      "fullTitle": "<table> has the correct information about Houston",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading 'querySelectorAll')\n    at Proxy.<anonymous> (node_modules/chai-dom/chai-dom.js:332:22)\n    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n    at Context.<anonymous> (test/index.html.test.js:73:39)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Cannot read properties of undefined (reading 'querySelectorAll')",
+        "multiple": [
+          {
+            "multiple": "TypeError: Cannot read properties of undefined (reading 'querySelectorAll')"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "exists in the HTML document",
+      "fullTitle": "<table> exists in the HTML document",
+      "file": "/home/criso/Development/code/phase-0-html-tables-lab/test/index.html.test.js",
+      "duration": 3,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
